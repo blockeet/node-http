@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "ws": "^8.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/blockeet/node-http.git"
+  },
+  "author": "blockeet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blockeet/node-http/issues"
+  },
+  "homepage": "https://github.com/blockeet/node-http#readme"
+}
